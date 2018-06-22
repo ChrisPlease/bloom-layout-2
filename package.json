@@ -1,0 +1,31 @@
+{
+  "name": "bloom-layout",
+  "version": "0.0.1",
+  "description": "Updated library for Bloom Layout components",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styleguide": "styleguidist server -c ./styleguide.config.js"
+  },
+  "author": "Chris Pruyne <chris@chrisplease.me>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react-styleguidist": "^7.0.17",
+    "rollup": "^0.61.1",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^4.0.0",
+    "webpack": "^4.12.0",
+    "webpack-blocks": "^1.0.0"
+  }
+}

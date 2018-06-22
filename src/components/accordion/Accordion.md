@@ -1,0 +1,5 @@
+Accordion Example:
+
+```js
+<Accordion />
+```
